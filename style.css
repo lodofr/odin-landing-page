@@ -1,0 +1,22 @@
+body {
+    margin: auto 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.logo {
+  flex-grow: 1;
+}
