@@ -35,8 +35,7 @@ ul {
 
 .hero {
   padding: 50px 400px;
-  gap: 60px;
-  
+  gap: 260px;
 }
 
 h1 {
@@ -44,14 +43,16 @@ h1 {
   font-weight: 900;
   color: #f9faf8;
   margin-bottom: 0;
+  flex-shrink: 1;
 }
 
 button {
   background-color: #3882F6;
   color: #f9faf8;
   font-size: 18px;
-  padding: 5px 20px;
+  padding: 7px 32px;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 img {
