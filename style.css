@@ -35,7 +35,8 @@ ul {
 
 .hero {
   padding: 50px 400px;
-  gap: 260px;
+  gap: 30px;
+  align-items: center;
 }
 
 h1 {
@@ -56,5 +57,6 @@ button {
 }
 
 img {
-  width: 400px;
+  min-width: 100px;
+  max-width: 500px;
 }
