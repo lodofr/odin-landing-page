@@ -1,7 +1,8 @@
 body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  font-family: Roboto, sans-serif;
 }
 
 .header, .hero {
@@ -35,7 +36,7 @@ ul {
 
 .hero {
   padding: 50px 400px;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
 }
 
@@ -56,7 +57,44 @@ button {
   font-weight: bold;
 }
 
-img {
-  min-width: 100px;
+.hero > img {
+  min-width: 200px;
   max-width: 500px;
+}
+
+.info-section > h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.info-section {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+
+.info p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.info-image {
+  min-width: 10px;
+  max-width: 40%;
+  border: #3882F6 solid 5px;
+  border-radius: 20px;
 }
