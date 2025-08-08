@@ -5,7 +5,9 @@ body {
   flex-direction: column;
 }
 
-.header, .hero {
+
+
+header, .hero {
   display: flex;
   padding: 16px 400px;
   background-color: #1F2937;
